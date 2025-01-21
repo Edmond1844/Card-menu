@@ -10,7 +10,7 @@
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 
     column-gap: 28px;
     row-gap: 28px;
@@ -34,6 +34,8 @@
 
 .card-wrapper__product-text-wrapper { 
     padding: 49px 23px;
+    
+    width: 289px;
 
     position: relative;
 }
@@ -77,4 +79,25 @@
     height: 70px;
     
     box-shadow: -1px 1px 8px 3px rgba(57, 56, 56, 0.26);
+}
+
+.card-wrappe__menu {
+    width: auto;
+
+    margin-top: 25px;
+
+    background-color: rgb(131, 124, 124);
+}
+
+.card-wrappe__menu-title {
+    text-align: center;
+
+    color: @white;
+
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+
+    padding: 25px;
 }
